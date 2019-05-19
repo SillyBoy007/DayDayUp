@@ -1,6 +1,9 @@
 package year_2019.month_may.day_13;
 
-
+/**
+ * 最优解
+ * 查找数组重复数字
+ */
 public class ArrayRepeat {
     public static boolean duplicate(int numbers[],int length,int [] duplication) {
         StringBuffer sb = new StringBuffer();

@@ -10,7 +10,7 @@ public class ArrayRepeat {
             stringBuffer.append(arr[i]+"");
         }
         for (int i=0;i<stringBuffer.length();i++){
-            if (stringBuffer.indexOf(arr[i]+"") !=stringBuffer.lastIndexOf(arr[i]+"")){
+            if (stringBuffer.indexOf(arr[i]+"") != stringBuffer.lastIndexOf(arr[i]+"")){
                 return arr[i];
             }
         }
@@ -18,7 +18,7 @@ public class ArrayRepeat {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7};
+        int[] arr = {1,2,3,4,5,5,7};
         System.out.println(arrRepeat(arr));
     }
 }
